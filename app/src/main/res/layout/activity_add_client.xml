@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".controleur.AddClientActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="412dp"
+            android:layout_height="814dp"
+            tools:layout_editor_absoluteY="-4dp"
+            tools:layout_editor_absoluteX="2dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="162dp">
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="563dp">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:inputType="textPersonName"
+                    android:text="Ville Client"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName8"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:inputType="textPersonName"
+                    android:text="Adresse Client"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName6"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Nom Client"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName4"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:inputType="textPersonName"
+                    android:text="Prenom Client"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName5"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:inputType="textPersonName"
+                    android:text="Code Postal Client"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName7"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent">
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:clickable="true" app:srcCompat="@drawable/ic_launcher_delete_foreground"
+                            android:id="@+id/floatingActionButton8" android:layout_weight="1"
+                            tools:srcCompat="@android:drawable/ic_input_delete"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="207dp"
+                        android:layout_height="match_parent">
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:clickable="true" app:srcCompat="@android:drawable/ic_menu_edit"
+                            android:id="@+id/floatingActionButton10" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

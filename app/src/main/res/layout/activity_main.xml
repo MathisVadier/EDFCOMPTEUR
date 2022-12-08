@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              tools:context=".controleur.MainActivity"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="753dp"
+            tools:ignore="UselessParent">
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+        >
+
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:paddingBottom="10dp"
+                    android:layout_height="113dp"
+                    app:srcCompat="@drawable/logoedf"
+                    android:contentDescription="@string/EDF"
+                    android:id="@+id/imageViewEDF"
+                    android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+        >
+
+
+            <Button
+                    android:text="@string/Identification"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#deb7ff"
+                    android:id="@+id/imageViewIdentification"
+
+                    tools:ignore="TextContrastCheck"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            <Button
+                    android:text="@string/Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageViewClient"
+                    android:backgroundTint="#c785ec"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            <Button
+                    android:text="@string/Transfert"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageViewTransfert"
+                    android:backgroundTint="#a86add"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            <Button
+                    android:text="@string/Sauvegarde"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageViewSauvegarde"
+                    android:backgroundTint="#8549a7"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="400dp" tools:layout_editor_absoluteY="24dp"
+            tools:layout_editor_absoluteX="17dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="Identifiant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView7" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <TextView
+                    android:text="Identifiant Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView8"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView9"/>
+            <TextView
+                    android:text="Identité"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView10" android:textSize="16sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:text="Identité Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView11"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView12"/>
+            <TextView
+                    android:text="Téléphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView13" android:textSize="16sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:text="Téléphone Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView14"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView15"/>
+            <TextView
+                    android:text="Adresse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView16" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <TextView
+                    android:text="Adresse Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView17"/>
+            <TextView
+                    android:text="Code Postal Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView18"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView19"/>
+            <TextView
+                    android:text="Compteur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView20" android:textSize="16sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:text="Compteur Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView21"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView22"/>
+            <TextView
+                    android:text="Ancien Relevé"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView23" android:textSize="16sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:text="Ancien Relevé Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView24"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView25" android:text="À la date du :"
+                    android:textSize="14sp" android:textStyle="bold"/>
+            <TextView
+                    android:text="Date Ancien Compteur Client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView26"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="432dp" tools:layout_editor_absoluteX="14dp"
+            tools:ignore="MissingConstraints">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Relevé :"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName" android:minHeight="48dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="391dp"
+            android:layout_height="225dp" tools:layout_editor_absoluteY="493dp" tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="13dp">
+        <TextView
+                android:text="Date :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView28" android:textStyle="bold"
+                android:textSize="20sp"/>
+        <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false" tools:ignore="MissingConstraints"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="391dp"
+            android:layout_height="49dp" tools:layout_editor_absoluteY="727dp" tools:layout_editor_absoluteX="14dp">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Situation :"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName3"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="410dp"
+            android:layout_height="67dp" tools:layout_editor_absoluteY="777dp" tools:layout_editor_absoluteX="1dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="106dp"
+                android:layout_height="match_parent">
+            <Button
+                    android:text="GÉOLOC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button3" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
